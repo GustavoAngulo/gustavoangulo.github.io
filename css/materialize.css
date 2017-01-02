@@ -3,6 +3,13 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+.row.text-center > div {
+    display: inline-block;
+    float: none;
+}
+
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -4306,6 +4313,12 @@ h5 {
   line-height: 110%;
   margin: 0.82rem 0 0.656rem 0;
 }
+
+h5:hover{
+  transform: scale(1.025);
+}
+
+
 
 h6 {
   font-size: 1rem;
